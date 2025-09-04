@@ -1,0 +1,2 @@
+This is Apache Spark code to read a text file and perform basic transformations
+After reading the file it splits each line into words
