@@ -32,3 +32,9 @@ public class ActionsDemo {
     }
 }
 
+/*
+
+A transformation creates a new RDD from an existing one
+An action actually triggers computation and returns a result
+*/
+
