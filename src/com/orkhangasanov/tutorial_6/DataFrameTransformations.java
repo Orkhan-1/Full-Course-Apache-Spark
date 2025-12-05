@@ -1,6 +1,5 @@
 package com.orkhangasanov.tutorial_6;
 
-// File: DataFrameTransformations.java
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;

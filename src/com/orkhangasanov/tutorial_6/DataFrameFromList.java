@@ -44,3 +44,22 @@ public class DataFrameFromList {
     }
 }
 
+/*
+
+RDD (Spark 1.0) - list of Java objects (low-level, flexible)
+
+Compile-time type safety
+
+    ↓
+DataFrame (Spark 1.3) - Distributed table (high-level, optimized)
+
+Added schema
+Tabular structure: Like a spreadsheet or SQL table
+No compile-time type safety: Types checked at runtime
+
+    ↓
+Dataset (Spark 1.6) = typed DataFrame (best of both worlds)
+
+Added type safety to DataFrame
+
+*/
