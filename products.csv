@@ -1,0 +1,11 @@
+product_id,product_name,category,stock
+1,Smartphone,Electronics,150
+2,Laptop,Electronics,80
+3,Desk Chair,Furniture,200
+4,Table,Furniture,120
+5,Headphones,Electronics,300
+6,Coffee Maker,Appliances,100
+7,Blender,Appliances,180
+8,Notebook,Stationery,500
+9,Pen,Stationery,1000
+10,Monitor,Electronics,60
