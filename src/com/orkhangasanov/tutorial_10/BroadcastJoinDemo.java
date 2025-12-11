@@ -1,8 +1,4 @@
-package com.orkhangasanov.tutorial_11;
-
-/*
-Demonstrate broadcast joins — speeding up joins with small datasets.
-*/
+package com.orkhangasanov.tutorial_10;
 
 import org.apache.spark.sql.SparkSession;
 import org.apache.spark.sql.Dataset;
@@ -58,7 +54,7 @@ public class BroadcastJoinDemo {
         // Select columns
         joined.select(
                 "city_name",
-                "country_continent",  // Using renamed column
+                "country_continent",
                 "population"
         ).show(10);
 
